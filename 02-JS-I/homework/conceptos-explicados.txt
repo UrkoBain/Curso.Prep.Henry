@@ -1,0 +1,9 @@
+Variables = las variables son asignaciones de valores, cuando a cierta informacion quieres asignarle un valor para poder ocuparla mas adelante en tu codigo. Las variables pueden renombrarse en cualquier momento, hay que tener mucho cuidado.
+
+Strings = los strings son bloques de texto, que son una linea de caracteres agrupados, pueden ser tanto simbolos, como letras, signos o los mismos numeros. Siempre se definen entre comillas o comillas sencillas.
+
+Funciones(argumentos, 'return') = Las funciones son estructuras de codigos declaradas y guardadas para sus usos posteriores en el codigo. Sirven para ahorrar codigo y para facilitar el manejo y estructuracion de la informacion conforme creas tu codigo. Los argumentos son los valores con los cuales tu funcion va a trabajar, dependiendo de que argumentos necesites es lo que le vas a programar a la funcion que haga para que te facilite el trabajo. Y el return es una herramienta que te permite ocupar un valor que esta encerrado dentro de tu funcion. Por lo general se retornan los resultados de tus funciones para poder ocupar la informacion en el resto del codigo o en una seccion especifica. Practicamente si usas return el resultado de tu funcion se va a quedar anidado dentro de la misma funcion.
+
+Declaraciones 'if' = Las declaraciones if son condicionantes, es decir, que a menos que se cumpla la indicacion que programas va a pasar algo y si no pasa lo que programaste tambien va a pasar otra cosa. Solo pueden tener dos resultados true(que se cumple la condicion) y false(que no se cumple la condicion).
+
+Valores booleanos ('true', 'false') = los booleanos vienen de la logica de boole, la cual consiste en solo dos posibles soluciones: cierto o falso, activar o desactivar, 1 o 0. Es un concepto de alimenta el codigo binario y el nucleo de las computadoras.
