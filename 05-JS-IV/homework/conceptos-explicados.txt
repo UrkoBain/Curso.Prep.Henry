@@ -1,0 +1,9 @@
+Objetos = Los objetos pueden definirse como un conjunto de datos agrupados y designados en una sola variable. Es parecido al funcionamiento de los arrays, donde cada elemento tiene un valor y una posicion en el elemento objeto creado.
+
+Propiedades = Las propiedades es la denominacion que se le da a los valores asignados a nuestros objetos, estos pueden ser numeros, strings, booleanos, funciones o inclusive hasta otros objetos.
+
+Metodos = Los metodos es el nombre que se le dan a las funciones dentro de un objeto. Ya hemos manejado varias funciones como lengh, push, pop, etc.
+
+Bucle 'for...in' = estos bucles son la version mejorada de "for" para trabajar objetos. Como los objetos no tienen valores numericos no se puede aplicar la herramienta for en estos.
+
+Notacion de puntos vs notacion de corchetes = son dos metodos utilizados para llamar propiedades especificas dentro de objetos especificos. Como sus nombres lo indican uno ocupa un punto entre el nombre del objeto y la propiedad que quieres traer y el otro ocupa el nombre del objeto y entre corchetes y comillas la propiedad que se quiere llamar.
