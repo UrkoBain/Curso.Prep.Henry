@@ -20,7 +20,7 @@ function crearUsuario() {
         this.saludar = function () {
           return "Hola, mi nombre es " + this.nombre;
         }
-    }
+         
   return Usuario;
 }
 

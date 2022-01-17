@@ -20,17 +20,25 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
-  var nuevaString = {};
-
-  for (i = 0; i < string.length; i++){
-    letra = string[i];
-    if(Object.keys(nuevaString).indexOf(letra) < 0){
-      nuevaString[letra] = 1;
+  var letrasRepetidas = [];
+  var letrasUnicas = [];
+  var stringSeparada = string.split('');
+  var contador = 1;
+  var respuesta = {}
+  for ( var i = 0; i < stringSeparada.length; i++){
+    if(stringSeparada[i + 1] === stringSeparada){
+      contador++;
     } else {
-      nuevaString[letra]++;
+      letrasUnicas.push(stringSeparada[i]);
+      letrasRepetidas.push(contador);
+      contador = 1;
     }
   }
-  return nuevaString;
+  for (var j = 0; j < letrasSinrepetir.length; j++){
+    respuesta[letrasSinrepetir[j]] = letrasRepetidas[j];
+  }
+  return respuesta;
+
 }
 
 
